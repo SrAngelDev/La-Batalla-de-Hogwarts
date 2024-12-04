@@ -67,7 +67,7 @@ class SpellCaster(
             println(color.yellow("Enemigos restantes: $leftEnemies"))
 
             if (time % 500 == 0) {
-                logger.debug {"Colocando enemigos cada 500 ms"}
+                //logger.debug {"Colocando enemigos cada 500 ms"}
                 placeEnemies()
                 println(color.magenta("¡Los enemigos se mueven!"))
             }
@@ -109,10 +109,10 @@ class SpellCaster(
     private fun calculateDamage(): Int {
         return if ((1..100).random() <= 20) {
             println(color.red("Hechizo crítico: Expulso!"))
-            5
+            50
         } else {
             println(color.blue("Hechizo básico: Stupefy"))
-            1
+            25
         }
     }
 
@@ -159,6 +159,9 @@ class SpellCaster(
         println(color.red("Enemigos muertos: $deadEnemies"))
         println(color.blue("Precisión: ${round(numberOfHits.toDouble() / numberOfShots * 100)}%"))
         orderEnemies()
+        println()
+        println(color.brightMagenta("Mostrando los enemigos restantes, ordenados por energía de mayor a menor:"))
+        println()
         for ((index, enemy) in enemies.withIndex()) {
             println(color.magenta("Enemigo ${index + 1}: $enemy"))
         }

@@ -25,7 +25,7 @@ class Configuration private constructor(
             val numberOfEnemies = args[1].toIntOrNull() ?: -1
             val time = args[2].toIntOrNull() ?: -1
 
-            if (mapSize !in 5..9 || numberOfEnemies !in 5..30 || time !in 1..15) {
+            if (mapSize !in 5..10 || numberOfEnemies !in 15..25 || time !in 1..15) {
                 showErrorMessage()
             }
 
@@ -35,7 +35,7 @@ class Configuration private constructor(
         private fun showErrorMessage() {
             println("Argumentos inválidos.")
             println("Uso: java -jar defensaHowarts.jar <mapSize> <numberOfEnemies> <time>")
-            println("Ejemplo: java -jar defensaHowarts.jar 6 12 3")
+            println("Ejemplo: java -jar defensaHowarts.jar 7 20 10")
             exitProcess(-1)
         }
     }
