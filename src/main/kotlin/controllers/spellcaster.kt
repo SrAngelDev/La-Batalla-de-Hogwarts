@@ -20,7 +20,7 @@ class SpellCaster(
     private val numberOfEnemies: Int,
     private val timeMax: Int,
 ) {
-    private val logger = logging()
+    //private val logger = logging()
 
     private val map = Array(mapSize) { arrayOfNulls<Enemy>(mapSize) }
     private val enemies = Array(numberOfEnemies) { Enemy.random() }
