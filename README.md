@@ -49,7 +49,7 @@ El sistema debe ejecutarse desde la línea de comandos de la siguiente manera:
 java -jar defensaHogwarts.jar <num_columnas> <num_filas> <num_enemigos>
 ```
 
-Si los parámetros no son correctos o no se ingresan, el programa solicitará los datos manualmente al iniciar.
+Si los parámetros no son correctos o no se ingresan, el programa no puede ejecutarse hasta que se introduzcan los parametros correctos.
 
 > "Solo aquellos con la valentía de enfrentarse al desafío podrán salir victoriosos." — Minerva McGonagall
 
