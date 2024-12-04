@@ -56,7 +56,7 @@ class SpellCaster(
      * @see castSpell
      */
     fun simulate() {
-        println(color.red("QUE COMIENZE LA GUERRA!!"))
+        println(color.red("-- QUE COMIENZE LA GUERRA!! --"))
         //logger.debug{"Comienza la simulacion"}
         var time = 0
         placeEnemies()
