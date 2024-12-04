@@ -21,8 +21,8 @@ Para proteger el castillo y derrotar a las fuerzas oscuras, se requiere desarrol
 
 ### 3. Sistema de escaneo y defensa
 - La cuadrícula escaneará aleatoriamente buscando enemigos.
-- **Hechizo básico ("Stupefy")**: Daña al enemigo en 1 punto de energía.
-- **Hechizo crítico ("Expulso")**: Un 20% de las veces, realiza un daño de 5 puntos.
+- **Hechizo básico ("Stupefy")**: Daña al enemigo en 25 puntos de energía.
+- **Hechizo crítico ("Expulso")**: Un 20% de las veces, realiza un daño de 50 puntos.
 - Si un enemigo es destruido (su energía llega a 0), desaparece del campo.
 
 ### 4. Movimiento de los enemigos
