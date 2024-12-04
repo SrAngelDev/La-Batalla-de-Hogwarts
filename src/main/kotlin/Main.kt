@@ -6,7 +6,7 @@ import srangeldev.models.Configuration
 
 /**
  * Simulación de defensa de Hogwarts.
- * Inicializa la configuración, crea un SpellCaster y ejecuta la simulación.
+ * Inicializa la configuración, crea un SpellCaster y ejecuta la simulación
  *
  * @param args Argumentos de línea de comandos.
  */
