@@ -1,6 +1,6 @@
 # Harry Potter: La Batalla de Hogwarts
 
-> "No es nuestra habilidad lo que muestra lo que somos, sino nuestras decisiones." — Albus Dumbledore
+> "Oscuros y difíciles tiempos nos aguardan. Pronto todos tendremos que decidir entre lo que es correcto y lo que es fácil." — Albus Dumbledore
 
 En el mundo mágico, las fuerzas oscuras han comenzado a ganar terreno. Después de la caída del Ministerio de Magia, los mortífagos han tomado control de gran parte del mundo mágico, dejando a Hogwarts como uno de los últimos bastiones de la resistencia. Voldemort ha desatado un ejército de inferi que amenazan con destruir todo a su paso.
 
