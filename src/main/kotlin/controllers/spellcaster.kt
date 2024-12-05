@@ -160,7 +160,7 @@ class SpellCaster(
         println(color.blue("Precisión: ${round(numberOfHits.toDouble() / numberOfShots * 100)}%"))
         orderEnemies()
         println()
-        println(color.brightMagenta("Mostrando los enemigos restantes, ordenados por energía de mayor a menor:"))
+        println(color.brightMagenta("Mostrando todos los enemigos, ordenados por energía de mayor a menor:"))
         println()
         for ((index, enemy) in enemies.withIndex()) {
             println(color.magenta("Enemigo ${index + 1}: $enemy"))
